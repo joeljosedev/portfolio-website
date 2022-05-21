@@ -1,0 +1,16 @@
+# Next.js files and directories
+.next
+next-env.d.ts
+next.config.js
+
+# Tailwind CSS files
+tailwind.config.js
+postcss.config.js
+
+# Other files and directories
+node_modules
+public
+.eslintrc.json
+package.json
+README.md
+tsconfig.json
