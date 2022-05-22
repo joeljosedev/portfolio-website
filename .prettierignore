@@ -9,7 +9,6 @@ postcss.config.js
 
 # Other files and directories
 node_modules
-public
 .eslintrc.json
 package.json
 README.md
