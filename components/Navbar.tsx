@@ -3,8 +3,23 @@ import { useState } from "react";
 import NavbarDesktop from "./NavbarDesktop";
 import NavbarMobile from "./NavbarMobile";
 
+export interface NavbarPropsType {
+  active: string;
+}
+
+const getActiveTab = () => {
+  const path = window.location.pathname;
+
+  if (path == "/") {
+    return "home";
+  } else {
+    return path.substring(1);
+  }
+};
+
 const Navbar = () => {
   const [width, setWidth] = useState(0);
+  const activeTab = getActiveTab();
 
   if (typeof window !== "undefined") {
     window.addEventListener("resize", () => {
@@ -16,9 +31,9 @@ const Navbar = () => {
     setWidth(window.innerWidth);
     return <></>;
   } else if (width < 768) {
-    return <NavbarMobile />;
+    return <NavbarMobile active={activeTab} />;
   } else {
-    return <NavbarDesktop />;
+    return <NavbarDesktop active={activeTab} />;
   }
 };
 
