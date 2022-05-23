@@ -1,0 +1,19 @@
+.container {
+  @apply sticky top-0 flex h-16 items-center border-b border-b-gray-800 bg-transparent p-2 backdrop-blur-sm;
+}
+
+.logo {
+  @apply mx-2 aspect-square h-full overflow-hidden rounded-full border-2;
+}
+
+.name {
+  @apply mr-auto ml-4 bg-transparent font-dancing text-5xl;
+}
+
+.activeTab {
+  @apply pointer-events-none m-4 bg-transparent text-2xl;
+}
+
+.tab {
+  @apply m-4 bg-transparent text-2xl text-gray-500 transition duration-200 hover:cursor-pointer hover:text-white;
+}
