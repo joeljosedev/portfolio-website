@@ -1,5 +1,5 @@
 /* Importing fonts above tailwind directives to prevent overriding */
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Roboto+Condensed:wght@300;400;700&display=swap");
 
 @tailwind base;
 @tailwind components;

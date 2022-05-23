@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         dancing: ["'Dancing Script'", "cursive"],
-        roboto: ["Roboto", "sans-serif"],
+        roboto: ["'Roboto Condensed'", "sans-serif"],
       }
     },
   },
