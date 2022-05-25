@@ -5,6 +5,7 @@ import NavbarMobile from "./NavbarMobile";
 
 export interface NavbarPropsType {
   active: string;
+  showModal?: boolean;
 }
 
 const getActiveTab = () => {
