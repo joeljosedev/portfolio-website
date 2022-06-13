@@ -1,0 +1,19 @@
+.container {
+  @apply fixed z-10 h-screen w-screen bg-opacity-80;
+}
+
+.modal {
+  @apply fixed top-0 right-0 m-2 flex h-2/5 w-2/3 flex-col justify-between rounded-xl bg-slate-800 p-4;
+}
+
+.close {
+  @apply absolute top-0 right-0 m-2 bg-transparent;
+}
+
+.activeTab {
+  @apply pointer-events-none m-4 w-fit bg-transparent text-4xl;
+}
+
+.tab {
+  @apply m-4 w-fit bg-transparent text-4xl text-gray-500;
+}
