@@ -2,7 +2,7 @@ const CloseIcon = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      className="h-8 w-8 bg-transparent"
+      className="h-10 w-10 bg-transparent"
       fill="none"
       viewBox="0 0 24 24"
       stroke="currentColor"
