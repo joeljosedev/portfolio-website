@@ -1,5 +1,20 @@
+@keyframes modal-animation {
+  from {
+    opacity: 0%;
+  }
+
+  to {
+    opacity: 100%;
+  }
+}
+
 .container {
   @apply fixed z-10 h-screen w-screen bg-opacity-80;
+  animation: modal-animation 0.2s;
+}
+
+.hideContainer {
+  @apply hidden;
 }
 
 .modal {
