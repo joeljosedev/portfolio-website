@@ -13,7 +13,7 @@
   animation: modal-animation 0.2s;
 }
 
-.hideContainer {
+.hiddenContainer {
   @apply hidden;
 }
 

@@ -25,7 +25,7 @@ const PageModal = (props: ModalPropsType) => {
       return styles.container;
     } else {
       document.body.style.overflow = "scroll";
-      return styles.hideContainer;
+      return styles.hiddenContainer;
     }
   };
 
