@@ -1,9 +1,24 @@
 import type { NextPage } from "next";
+import Image from "next/image";
+import styles from "../styles/index.module.css";
 
 const Home: NextPage = () => {
   return (
-    <div>
-      <div>Hello World</div>
+    <div className={styles.container}>
+      <div className={styles.photo}>
+        <Image
+          src="/joel-jose.jpg"
+          alt="Photo of Joel Jose"
+          width={1730}
+          height={1730}
+        />
+      </div>
+      <div className={styles.text}>
+        <div className={styles.name}>Joel Jose</div>
+        <div className={styles.caption}>
+          Next.js developer | Linux enthusiast
+        </div>
+      </div>
     </div>
   );
 };
