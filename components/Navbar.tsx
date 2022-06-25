@@ -21,11 +21,9 @@ const Navbar = () => {
   const [width, setWidth] = useState(0);
   const activeTab = getActiveTab();
 
-  if (typeof window !== "undefined") {
-    window.addEventListener("resize", () => {
-      setWidth(window.innerWidth);
-    });
-  }
+  window.addEventListener("resize", () => {
+    setWidth(window.innerWidth);
+  });
 
   if (width == 0) {
     setWidth(window.innerWidth);
