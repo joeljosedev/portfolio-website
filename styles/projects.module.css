@@ -14,10 +14,6 @@
   @apply border-b bg-transparent pb-4 text-4xl font-bold md:pb-8 md:text-8xl;
 }
 
-.cardTitleLink {
-  @apply bg-transparent;
-}
-
 .cardDescription {
   @apply bg-transparent py-4 text-xl font-thin md:py-8 md:text-4xl;
 }
@@ -32,4 +28,12 @@
 
 .cardLibraryListItem {
   @apply bg-transparent text-xl font-thin md:py-1 md:text-3xl;
+}
+
+.open {
+  @apply mx-auto mt-4 rounded-lg border bg-gray-600 p-2 text-center transition duration-200 hover:bg-white hover:text-gray-600;
+}
+
+.link {
+  @apply bg-transparent text-xl;
 }
