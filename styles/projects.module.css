@@ -7,7 +7,7 @@
 }
 
 .card {
-  @apply my-4 w-[calc(75vw)] rounded-xl border bg-slate-900 p-4 md:w-[calc(50vw)] md:p-12;
+  @apply my-4 w-[calc(75vw)] rounded-xl border bg-slate-900 p-4 md:my-8 md:w-[calc(60vw)] md:p-12;
 }
 
 .cardTitle {
