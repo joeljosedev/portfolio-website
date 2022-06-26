@@ -1,6 +1,6 @@
 import Link from "next/link";
+import CloseIcon from "../icons/CloseIcon";
 import styles from "../styles/PageModal.module.css";
-import CloseIcon from "./CloseIcon";
 
 interface ModalPropsType {
   active: string;
