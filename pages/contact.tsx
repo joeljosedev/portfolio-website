@@ -20,11 +20,11 @@ const Contact = () => {
       </div>
       <div className={styles.title}>Contact Me</div>
       <div className={styles.cardContainer}>
-        <a href="tel:+919846642788">
-          <div className={styles.card}>Phone</div>
-        </a>
         <a href="mailto:mail@joeljose.dev">
           <div className={styles.card}>Email</div>
+        </a>
+        <a href="/resume.pdf" target="_blank">
+          <div className={styles.card}>Resume</div>
         </a>
       </div>
     </div>
