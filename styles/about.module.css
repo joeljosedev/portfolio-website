@@ -3,7 +3,7 @@
 }
 
 .title {
-  @apply hidden pb-16 text-center text-8xl md:block;
+  @apply pb-4 text-center text-4xl md:pb-16 md:text-8xl;
 }
 
 .paragraph {
