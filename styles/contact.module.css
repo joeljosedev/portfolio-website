@@ -1,0 +1,15 @@
+.container {
+  @apply flex flex-col items-center px-12 py-4 md:px-36 md:py-12;
+}
+
+.title {
+  @apply py-4 text-5xl md:pb-16 md:text-8xl;
+}
+
+.cardContainer {
+  @apply my-4 grid w-[calc(75vw)] grid-cols-1 gap-4 md:my-8 md:w-[calc(60vw)] md:grid-cols-2;
+}
+
+.card {
+  @apply flex aspect-video items-center justify-center rounded-xl border bg-slate-900 text-3xl transition duration-200 hover:bg-white hover:text-slate-900 md:text-7xl;
+}
