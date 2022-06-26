@@ -36,10 +36,10 @@ const About = () => {
         decided to build the website with Next.js and Tailwind CSS.
       </div>
       <div className={styles.paragraph}>
-        During the fifth semester of the bachelor's program, I was interested in
-        learning Linux kernel programming and writing device drivers. I am
-        currently in the sixth semester of the program, learning C and building
-        the portfolio website.
+        During the fifth semester of the bachelor&apos;s program, I was
+        interested in learning Linux kernel programming and writing device
+        drivers. I am currently in the sixth semester of the program, learning C
+        and building the portfolio website.
       </div>
     </div>
   );
