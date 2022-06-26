@@ -1,6 +1,11 @@
 /* Importing fonts above tailwind directives to prevent overriding */
-@import "@fontsource/dancing-script";
-@import "@fontsource/roboto-condensed";
+@import "@fontsource/dancing-script/400.css";
+@import "@fontsource/dancing-script/500.css";
+@import "@fontsource/dancing-script/600.css";
+@import "@fontsource/dancing-script/700.css";
+@import "@fontsource/roboto-condensed/300.css";
+@import "@fontsource/roboto-condensed/400.css";
+@import "@fontsource/roboto-condensed/700.css";
 
 @tailwind base;
 @tailwind components;
