@@ -6,13 +6,13 @@ const About = () => {
       <div className={styles.title}>About Me</div>
       <div className={styles.paragraph}>
         My journey into software engineering began when I got my first laptop
-        about a week before the first semester classes of my bachelor's degree
-        in Computer Science and Engineering commenced.
+        about a week before the first semester classes of my bachelor&apos;s
+        degree in Computer Science and Engineering commenced.
       </div>
       <div className={styles.paragraph}>
         I had learnt a little C++ in school and was looking forward to learning
         more about programming in college. I was busy with college work in the
-        first semester, so I couldn't find time to learn anything outside the
+        first semester, so I could not find time to learn anything outside the
         course curriculum.
       </div>
       <div className={styles.paragraph}>
@@ -36,9 +36,10 @@ const About = () => {
         decided to build the website with Next.js and Tailwind CSS.
       </div>
       <div className={styles.paragraph}>
-        In the fifth semester, I was interested in learning Linux kernel
-        programming and writing device drivers. Now, I'm in the sixth semester,
-        learning C and building the portfolio website.
+        During the fifth semester of the bachelor's program, I was interested in
+        learning Linux kernel programming and writing device drivers. I am
+        currently in the sixth semester of the program, learning C and building
+        the portfolio website.
       </div>
     </div>
   );
