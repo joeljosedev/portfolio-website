@@ -20,6 +20,7 @@ const Projects = () => {
           className={styles.link}
           href="https://github.com/joeljosedev/portfolio-website"
           target="_blank"
+          rel="noreferrer"
         >
           <div className={styles.open}>Open</div>
         </a>
@@ -41,6 +42,7 @@ const Projects = () => {
           className={styles.link}
           href="https://github.com/joeljosedev/Titanic-Data-Analysis"
           target="_blank"
+          rel="noreferrer"
         >
           <div className={styles.open}>Open</div>
         </a>
