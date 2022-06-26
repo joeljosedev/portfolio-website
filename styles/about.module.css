@@ -1,0 +1,11 @@
+.container {
+  @apply px-12 py-4 md:px-36 md:py-12;
+}
+
+.title {
+  @apply hidden pb-16 text-center text-8xl md:block;
+}
+
+.paragraph {
+  @apply py-4 text-2xl font-thin md:py-8 md:text-5xl;
+}
