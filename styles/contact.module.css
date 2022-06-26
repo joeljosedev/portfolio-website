@@ -11,5 +11,5 @@
 }
 
 .card {
-  @apply flex aspect-video items-center justify-center rounded-xl border bg-slate-900 text-3xl transition duration-200 hover:bg-white hover:text-slate-900 md:text-7xl;
+  @apply flex aspect-video items-center justify-center rounded-xl border bg-slate-900 text-3xl font-thin transition duration-200 hover:bg-white hover:text-slate-900 md:text-7xl;
 }
