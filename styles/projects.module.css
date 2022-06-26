@@ -1,0 +1,35 @@
+.container {
+  @apply flex flex-col items-center px-12 py-4 md:px-36 md:py-12;
+}
+
+.title {
+  @apply py-4 text-center text-5xl md:pb-16 md:text-8xl;
+}
+
+.card {
+  @apply my-4 w-[calc(75vw)] rounded-xl border bg-slate-900 p-4 md:w-[calc(50vw)];
+}
+
+.cardTitle {
+  @apply border-b bg-transparent pb-4 text-4xl font-bold md:pb-8 md:text-8xl;
+}
+
+.cardTitleLink {
+  @apply bg-transparent;
+}
+
+.cardDescription {
+  @apply bg-transparent py-4 text-xl font-thin md:py-8 md:text-4xl;
+}
+
+.cardLibrary {
+  @apply bg-transparent text-2xl md:text-6xl;
+}
+
+.cardLibraryList {
+  @apply list-disc bg-transparent pt-2 pl-6 md:pt-4 md:pl-10;
+}
+
+.cardLibraryListItem {
+  @apply bg-transparent text-xl font-thin md:py-1 md:text-3xl;
+}
