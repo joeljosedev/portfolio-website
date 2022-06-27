@@ -10,7 +10,7 @@
 
 .photo {
   @apply aspect-square w-4/6 overflow-hidden rounded-lg opacity-0 md:w-1/4;
-  animation: load 1s forwards;
+  animation: load 1s forwards ease-in;
 }
 
 .text {
@@ -19,10 +19,10 @@
 
 .name {
   @apply font-dancing text-7xl opacity-0 md:text-[10rem];
-  animation: load 1s forwards 0.5s;
+  animation: load 1s forwards ease-in 0.5s;
 }
 
 .caption {
   @apply text-2xl opacity-0 md:text-5xl;
-  animation: load 1s forwards 1s;
+  animation: load 1s forwards ease-in 0.75s;
 }
