@@ -1,8 +1,8 @@
-const PortraitPhone = () => {
+const PortraitPhone = (props) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      className="h-40 w-40"
+      className={props.styles}
       fill="none"
       viewBox="0 0 24 24"
       stroke="currentColor"
