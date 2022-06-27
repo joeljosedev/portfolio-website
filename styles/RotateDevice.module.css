@@ -1,7 +1,19 @@
+@keyframes load {
+  to {
+    opacity: 1;
+  }
+}
+
 .container {
-  @apply fixed z-20 flex h-screen w-screen items-center justify-evenly py-16;
+  @apply fixed z-20 flex h-screen w-screen items-center justify-evenly px-4 py-16;
+}
+
+.phone {
+  @apply h-80 w-80 opacity-0;
+  animation: load 0.5s forwards ease-in;
 }
 
 .text {
-  @apply text-2xl;
+  @apply w-1/2 text-4xl opacity-0;
+  animation: load 0.5s forwards ease-in 0.5s;
 }

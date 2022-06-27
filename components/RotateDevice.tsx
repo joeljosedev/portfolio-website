@@ -20,7 +20,7 @@ const RotateDevice = () => {
   ) {
     return (
       <div className={styles.container}>
-        <PortraitPhone />
+        <PortraitPhone styles={styles.phone} />
         <div className={styles.text}>
           Please rotate your device to portrait mode to view this webpage.
         </div>
