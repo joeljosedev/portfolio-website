@@ -13,7 +13,11 @@ const RotateDevice = () => {
   if (height == 1000) {
     setHeight(window.innerHeight);
     return <></>;
-  } else if (screen.orientation.type === "landscape-primary" && height < 768) {
+  } else if (
+    (screen.orientation.type === "landscape-primary" ||
+      screen.orientation.type === "landscape-secondary") &&
+    height < 768
+  ) {
     return (
       <div className={styles.container}>
         <PortraitPhone />
