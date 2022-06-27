@@ -28,11 +28,17 @@ const MyApp = ({ Component, pageProps }: AppProps) => (
       <link rel="manifest" href="/site.webmanifest" />
       <meta charSet="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta name="description" content="Next.js developer | Linux enthusiast" />
+      <meta
+        name="description"
+        content="An avid supporter of free and open-source software and an active contributor to open-source projects. Proficient in programming with Python and TypeScript, creating and managing virtual machines, troubleshooting Linux machines and configuring SOHO network infrastructure."
+      />
       <meta property="og:title" content="Joel Jose" />
+      <meta property="og:type" content="website" />
+      <meta property="og:image" content="/banner.png" />
+      <meta property="og:url" content="https://www.joeljose.dev" />
       <meta
         property="og:description"
-        content="Next.js developer | Linux enthusiast"
+        content="An avid supporter of free and open-source software and an active contributor to open-source projects. Proficient in programming with Python and TypeScript, creating and managing virtual machines, troubleshooting Linux machines and configuring SOHO network infrastructure."
       />
     </Head>
     <RotateDevice />
