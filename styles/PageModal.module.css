@@ -9,7 +9,7 @@
 }
 
 .container {
-  @apply fixed z-10 h-screen w-screen bg-opacity-80;
+  @apply fixed z-20 h-screen w-screen bg-opacity-80;
   animation: modal-animation 0.2s;
 }
 

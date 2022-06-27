@@ -1,5 +1,5 @@
 .container {
-  @apply sticky top-0 flex h-16 items-center border-b border-b-gray-800 bg-transparent p-2 backdrop-blur-sm;
+  @apply sticky top-0 z-10 flex h-16 items-center border-b border-b-gray-800 bg-transparent p-2 backdrop-blur-sm;
 }
 
 .logo {
