@@ -3,28 +3,28 @@ import styles from "../styles/contact.module.css";
 const Contact = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.title}>My Accounts</div>
+      <div className={styles.title1}>My Accounts</div>
       <div className={styles.cardContainer}>
         <a href="https://wa.me/+919846642788">
-          <div className={styles.card}>WhatsApp</div>
+          <div className={styles.card1}>WhatsApp</div>
         </a>
         <a href="https://www.linkedin.com/in/joeljosedev">
-          <div className={styles.card}>LinkedIn</div>
+          <div className={styles.card2}>LinkedIn</div>
         </a>
         <a href="https://github.com/joeljosedev">
-          <div className={styles.card}>GitHub</div>
+          <div className={styles.card3}>GitHub</div>
         </a>
         <a href="https://t.me/joeljosedev">
-          <div className={styles.card}>Telegram</div>
+          <div className={styles.card4}>Telegram</div>
         </a>
       </div>
-      <div className={styles.title}>Contact Me</div>
+      <div className={styles.title2}>Contact Me</div>
       <div className={styles.cardContainer}>
         <a href="mailto:mail@joeljose.dev">
-          <div className={styles.card}>Email</div>
+          <div className={styles.card5}>Email</div>
         </a>
         <a href="/Joel-Jose-Resume.pdf" target="_blank">
-          <div className={styles.card}>Resume</div>
+          <div className={styles.card6}>Resume</div>
         </a>
       </div>
     </div>

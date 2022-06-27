@@ -1,15 +1,53 @@
+@keyframes load {
+  to {
+    opacity: 1;
+  }
+}
+
 .container {
   @apply flex flex-col items-center px-12 py-4 md:px-36 md:py-12;
 }
 
-.title {
-  @apply py-4 text-5xl md:pb-16 md:text-8xl;
+.title1 {
+  @apply py-4 text-5xl opacity-0 md:pb-16 md:text-8xl;
+  animation: load 1s forwards ease-in;
 }
 
 .cardContainer {
   @apply my-4 grid w-[calc(75vw)] grid-cols-1 gap-4 md:my-8 md:w-[calc(60vw)] md:grid-cols-2;
 }
 
-.card {
-  @apply flex aspect-video items-center justify-center rounded-xl border bg-slate-900 text-3xl font-thin transition duration-200 hover:bg-white hover:text-slate-900 md:text-7xl;
+.card1 {
+  @apply flex aspect-video items-center justify-center rounded-xl border bg-slate-900 text-3xl font-thin opacity-0 transition duration-200 hover:bg-white hover:text-slate-900 md:text-7xl;
+  animation: load 1s forwards ease-in 0.5s;
+}
+
+.card2 {
+  @apply flex aspect-video items-center justify-center rounded-xl border bg-slate-900 text-3xl font-thin opacity-0 transition duration-200 hover:bg-white hover:text-slate-900 md:text-7xl;
+  animation: load 1s forwards ease-in 0.75s;
+}
+
+.card3 {
+  @apply flex aspect-video items-center justify-center rounded-xl border bg-slate-900 text-3xl font-thin opacity-0 transition duration-200 hover:bg-white hover:text-slate-900 md:text-7xl;
+  animation: load 1s forwards ease-in 1s;
+}
+
+.card4 {
+  @apply flex aspect-video items-center justify-center rounded-xl border bg-slate-900 text-3xl font-thin opacity-0 transition duration-200 hover:bg-white hover:text-slate-900 md:text-7xl;
+  animation: load 1s forwards ease-in 1.25s;
+}
+
+.title2 {
+  @apply py-4 text-5xl opacity-0 md:pb-16 md:text-8xl;
+  animation: load 1s forwards ease-in 1.75s;
+}
+
+.card5 {
+  @apply flex aspect-video items-center justify-center rounded-xl border bg-slate-900 text-3xl font-thin opacity-0 transition duration-200 hover:bg-white hover:text-slate-900 md:text-7xl;
+  animation: load 1s forwards ease-in 2.25s;
+}
+
+.card6 {
+  @apply flex aspect-video items-center justify-center rounded-xl border bg-slate-900 text-3xl font-thin opacity-0 transition duration-200 hover:bg-white hover:text-slate-900 md:text-7xl;
+  animation: load 1s forwards ease-in 2.5s;
 }
