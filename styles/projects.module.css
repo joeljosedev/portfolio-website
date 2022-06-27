@@ -1,13 +1,26 @@
+@keyframes load {
+  to {
+    opacity: 1;
+  }
+}
+
 .container {
   @apply flex flex-col items-center px-12 py-4 md:px-36 md:py-12;
 }
 
 .title {
-  @apply py-4 text-center text-5xl md:pb-16 md:text-8xl;
+  @apply py-4 text-center text-5xl opacity-0 md:pb-16 md:text-8xl;
+  animation: load 1s forwards ease-in;
 }
 
-.card {
-  @apply my-4 w-[calc(75vw)] rounded-xl border bg-slate-900 p-4 md:my-8 md:w-[calc(60vw)] md:p-12;
+.card1 {
+  @apply my-4 w-[calc(75vw)] rounded-xl border bg-slate-900 p-4 opacity-0 md:my-8 md:w-[calc(60vw)] md:p-12;
+  animation: load 1s forwards ease-in 0.5s;
+}
+
+.card2 {
+  @apply my-4 w-[calc(75vw)] rounded-xl border bg-slate-900 p-4 opacity-0 md:my-8 md:w-[calc(60vw)] md:p-12;
+  animation: load 1s forwards ease-in 0.75s;
 }
 
 .cardTitle {

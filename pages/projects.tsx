@@ -4,7 +4,7 @@ const Projects = () => {
   return (
     <div className={styles.container}>
       <div className={styles.title}>My Projects</div>
-      <div className={styles.card}>
+      <div className={styles.card1}>
         <div className={styles.cardTitle}>Portfolio Website</div>
         <div className={styles.cardDescription}>
           My portfolio website built with Next.js and Tailwind CSS.
@@ -25,7 +25,7 @@ const Projects = () => {
           <div className={styles.open}>Open</div>
         </a>
       </div>
-      <div className={styles.card}>
+      <div className={styles.card2}>
         <div className={styles.cardTitle}>Titanic Data Analysis</div>
         <div className={styles.cardDescription}>
           Analysis of passenger data of the RMS Titanic.
