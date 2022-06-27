@@ -1,9 +1,16 @@
+@keyframes load {
+  to {
+    opacity: 1;
+  }
+}
+
 .container {
   @apply flex h-[calc(100vh-3.5rem)] w-screen flex-col items-center justify-evenly py-12 md:h-[calc(100vh-4rem)] md:flex-row;
 }
 
 .photo {
-  @apply aspect-square w-4/6 overflow-hidden rounded-lg md:w-1/4;
+  @apply aspect-square w-4/6 overflow-hidden rounded-lg opacity-0 md:w-1/4;
+  animation: load 1s forwards;
 }
 
 .text {
@@ -11,9 +18,11 @@
 }
 
 .name {
-  @apply font-dancing text-7xl md:text-[10rem];
+  @apply font-dancing text-7xl opacity-0 md:text-[10rem];
+  animation: load 1s forwards 0.5s;
 }
 
 .caption {
-  @apply text-2xl md:text-5xl;
+  @apply text-2xl opacity-0 md:text-5xl;
+  animation: load 1s forwards 1s;
 }
