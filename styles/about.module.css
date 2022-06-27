@@ -1,11 +1,49 @@
+@keyframes load {
+  to {
+    opacity: 1;
+  }
+}
+
 .container {
   @apply px-12 py-4 md:px-36 md:py-12;
 }
 
 .title {
-  @apply py-4 text-center text-5xl md:pb-16 md:text-8xl;
+  @apply py-4 text-center text-5xl opacity-0 md:pb-16 md:text-8xl;
+  animation: load 1s forwards ease-in;
 }
 
-.paragraph {
-  @apply py-4 text-2xl font-thin md:py-8 md:text-5xl;
+.paragraph_1 {
+  @apply py-4 text-2xl font-thin opacity-0 md:py-8 md:text-5xl;
+  animation: load 1s forwards ease-in 0.5s;
+}
+
+.paragraph_2 {
+  @apply py-4 text-2xl font-thin opacity-0 md:py-8 md:text-5xl;
+  animation: load 1s forwards ease-in 0.75s;
+}
+
+.paragraph_3 {
+  @apply py-4 text-2xl font-thin opacity-0 md:py-8 md:text-5xl;
+  animation: load 1s forwards ease-in 1s;
+}
+
+.paragraph_4 {
+  @apply py-4 text-2xl font-thin opacity-0 md:py-8 md:text-5xl;
+  animation: load 1s forwards ease-in 1.25s;
+}
+
+.paragraph_5 {
+  @apply py-4 text-2xl font-thin opacity-0 md:py-8 md:text-5xl;
+  animation: load 1s forwards ease-in 1.5s;
+}
+
+.paragraph_6 {
+  @apply py-4 text-2xl font-thin opacity-0 md:py-8 md:text-5xl;
+  animation: load 1s forwards ease-in 1.75s;
+}
+
+.paragraph_7 {
+  @apply py-4 text-2xl font-thin opacity-0 md:py-8 md:text-5xl;
+  animation: load 1s forwards ease-in 2s;
 }
