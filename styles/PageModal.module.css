@@ -1,16 +1,12 @@
-@keyframes modal-animation {
-  from {
-    opacity: 0%;
-  }
-
+@keyframes load {
   to {
-    opacity: 100%;
+    opacity: 1;
   }
 }
 
 .container {
   @apply fixed z-20 h-screen w-screen bg-opacity-80;
-  animation: modal-animation 0.2s;
+  animation: load 0.25s forwards ease-in;
 }
 
 .hiddenContainer {
@@ -22,13 +18,30 @@
 }
 
 .close {
-  @apply absolute top-0 right-0 m-2 bg-transparent;
+  @apply absolute top-0 right-0 m-2 bg-transparent opacity-0;
+  animation: load 0.25s forwards ease-in 0.5s;
 }
 
 .activeTab {
-  @apply pointer-events-none m-4 w-fit bg-transparent text-4xl;
+  @apply pointer-events-none m-4 w-fit bg-transparent text-4xl opacity-0;
 }
 
 .tab {
-  @apply m-4 w-fit bg-transparent text-4xl text-gray-500;
+  @apply m-4 w-fit bg-transparent text-4xl text-gray-500 opacity-0;
+}
+
+.tab1 {
+  animation: load 0.25s forwards ease-in 0.25s;
+}
+
+.tab2 {
+  animation: load 0.25s forwards ease-in 0.3s;
+}
+
+.tab3 {
+  animation: load 0.25s forwards ease-in 0.35s;
+}
+
+.tab4 {
+  animation: load 0.25s forwards ease-in 0.4s;
 }

@@ -45,7 +45,10 @@ const PageModal = (props: ModalPropsType) => {
         </div>
         <Link href="/">
           <div
-            className={props.active === "home" ? styles.activeTab : styles.tab}
+            className={[
+              styles.tab1,
+              props.active === "home" ? styles.activeTab : styles.tab,
+            ].join(" ")}
             onClick={() => props.setShowModal(false)}
           >
             Home
@@ -53,7 +56,10 @@ const PageModal = (props: ModalPropsType) => {
         </Link>
         <Link href="/about">
           <div
-            className={props.active === "about" ? styles.activeTab : styles.tab}
+            className={[
+              styles.tab2,
+              props.active === "about" ? styles.activeTab : styles.tab,
+            ].join(" ")}
             onClick={() => props.setShowModal(false)}
           >
             About
@@ -61,9 +67,10 @@ const PageModal = (props: ModalPropsType) => {
         </Link>
         <Link href="/projects">
           <div
-            className={
-              props.active === "projects" ? styles.activeTab : styles.tab
-            }
+            className={[
+              styles.tab3,
+              props.active === "projects" ? styles.activeTab : styles.tab,
+            ].join(" ")}
             onClick={() => props.setShowModal(false)}
           >
             Projects
@@ -71,9 +78,10 @@ const PageModal = (props: ModalPropsType) => {
         </Link>
         <Link href="/contact">
           <div
-            className={
-              props.active === "contact" ? styles.activeTab : styles.tab
-            }
+            className={[
+              styles.tab4,
+              props.active === "contact" ? styles.activeTab : styles.tab,
+            ].join(" ")}
             onClick={() => props.setShowModal(false)}
           >
             Contact
