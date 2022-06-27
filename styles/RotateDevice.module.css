@@ -1,5 +1,5 @@
 .container {
-  @apply fixed z-10 flex h-screen w-screen items-center justify-evenly py-16;
+  @apply fixed z-20 flex h-screen w-screen items-center justify-evenly py-16;
 }
 
 .text {
