@@ -25,7 +25,7 @@ const About = () => {
       </div>
       <div className={styles.paragraph_5}>
         By the end of the second semester, I was comfortable working on Linux
-        machines on the command line. I had also learnt Python by doing online
+        machines on the command line. I also learnt Python by doing online
         courses on Coursera, followed by a data analysis project which I then
         uploaded to GitHub.
       </div>
@@ -38,8 +38,8 @@ const About = () => {
       <div className={styles.paragraph_7}>
         During the fifth semester of the bachelor&apos;s program, I was
         interested in learning Linux kernel programming and writing device
-        drivers. I am currently in the sixth semester of the program, learning C
-        and building the portfolio website.
+        drivers. I am currently in the sixth semester and learning C and C++. I
+        also built the portfolio website during this semester.
       </div>
     </div>
   );
