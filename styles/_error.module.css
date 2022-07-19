@@ -1,0 +1,24 @@
+@keyframes load {
+  to {
+    opacity: 1;
+  }
+}
+
+.container {
+  @apply fixed top-0 z-20 flex h-screen w-screen flex-col items-center justify-evenly p-8;
+}
+
+.code {
+  @apply flex h-[30vh] items-center justify-center text-[30vh] opacity-0 md:h-[40vh] md:text-[40vh];
+  animation: load 0.5s forwards ease-in;
+}
+
+.message {
+  @apply text-4xl font-thin opacity-0 md:text-6xl;
+  animation: load 0.5s forwards ease-in 0.5s;
+}
+
+.button {
+  @apply w-full rounded-xl border bg-slate-900 p-4 text-center text-2xl opacity-0 transition duration-200 md:w-2/5 md:text-3xl md:hover:cursor-pointer md:hover:bg-white md:hover:text-slate-900;
+  animation: load 0.5s forwards ease-in 1s;
+}
