@@ -7,7 +7,7 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       <div className={styles.photo}>
         <Image
-          src="/joel-jose.jpg"
+          src="/Joel-Jose.jpg"
           alt="Photo of Joel Jose"
           width={1730}
           height={1730}
