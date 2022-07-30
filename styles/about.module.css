@@ -13,37 +13,37 @@
   animation: load 1s forwards ease-in;
 }
 
-.paragraph_1 {
+.para1 {
   @apply py-4 text-2xl font-thin opacity-0 md:py-8 md:text-5xl;
   animation: load 1s forwards ease-in 0.5s;
 }
 
-.paragraph_2 {
+.para2 {
   @apply py-4 text-2xl font-thin opacity-0 md:py-8 md:text-5xl;
   animation: load 1s forwards ease-in 0.75s;
 }
 
-.paragraph_3 {
+.para3 {
   @apply py-4 text-2xl font-thin opacity-0 md:py-8 md:text-5xl;
   animation: load 1s forwards ease-in 1s;
 }
 
-.paragraph_4 {
+.para4 {
   @apply py-4 text-2xl font-thin opacity-0 md:py-8 md:text-5xl;
   animation: load 1s forwards ease-in 1.25s;
 }
 
-.paragraph_5 {
+.para5 {
   @apply py-4 text-2xl font-thin opacity-0 md:py-8 md:text-5xl;
   animation: load 1s forwards ease-in 1.5s;
 }
 
-.paragraph_6 {
+.para6 {
   @apply py-4 text-2xl font-thin opacity-0 md:py-8 md:text-5xl;
   animation: load 1s forwards ease-in 1.75s;
 }
 
-.paragraph_7 {
+.para7 {
   @apply py-4 text-2xl font-thin opacity-0 md:py-8 md:text-5xl;
   animation: load 1s forwards ease-in 2s;
 }
