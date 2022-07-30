@@ -6,15 +6,19 @@ import { NavbarPropsType } from "./Navbar";
 const NavbarDesktop = (props: NavbarPropsType) => {
   return (
     <div className={styles.container}>
-      <div className={styles.logo}>
-        <Image
-          src="/android-chrome-512x512.png"
-          alt="Logo"
-          width={512}
-          height={512}
-        />
-      </div>
-      <div className={styles.name}>Joel Jose</div>
+      <Link href="/">
+        <div className={styles.linkContainer}>
+          <div className={styles.logo}>
+            <Image
+              src="/android-chrome-512x512.png"
+              alt="Logo"
+              width={512}
+              height={512}
+            />
+          </div>
+          <div className={styles.name}>Joel Jose</div>
+        </div>
+      </Link>
       <Link href="/">
         <div
           className={props.active === "home" ? styles.activeTab : styles.tab}

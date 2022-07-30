@@ -2,12 +2,16 @@
   @apply sticky top-0 z-10 flex h-14 items-center border-b border-b-gray-800 bg-transparent p-2 backdrop-blur-md;
 }
 
+.linkContainer {
+  @apply mr-auto flex h-full;
+}
+
 .logo {
   @apply aspect-square h-full overflow-hidden rounded-full border-2;
 }
 
 .name {
-  @apply mr-auto ml-4 bg-transparent font-dancing text-4xl;
+  @apply ml-4 bg-transparent font-dancing text-4xl;
 }
 
 .menu {
