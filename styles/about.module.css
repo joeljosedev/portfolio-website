@@ -4,6 +4,10 @@
   }
 }
 
+.paraCommon {
+  @apply py-4 text-2xl font-thin opacity-0 md:py-8 md:text-5xl;
+}
+
 .container {
   @apply px-12 py-4 md:px-36 md:py-12;
 }
@@ -14,36 +18,36 @@
 }
 
 .para1 {
-  @apply py-4 text-2xl font-thin opacity-0 md:py-8 md:text-5xl;
+  @apply paraCommon;
   animation: load 1s forwards ease-in 0.5s;
 }
 
 .para2 {
-  @apply py-4 text-2xl font-thin opacity-0 md:py-8 md:text-5xl;
+  @apply paraCommon;
   animation: load 1s forwards ease-in 0.75s;
 }
 
 .para3 {
-  @apply py-4 text-2xl font-thin opacity-0 md:py-8 md:text-5xl;
+  @apply paraCommon;
   animation: load 1s forwards ease-in 1s;
 }
 
 .para4 {
-  @apply py-4 text-2xl font-thin opacity-0 md:py-8 md:text-5xl;
+  @apply paraCommon;
   animation: load 1s forwards ease-in 1.25s;
 }
 
 .para5 {
-  @apply py-4 text-2xl font-thin opacity-0 md:py-8 md:text-5xl;
+  @apply paraCommon;
   animation: load 1s forwards ease-in 1.5s;
 }
 
 .para6 {
-  @apply py-4 text-2xl font-thin opacity-0 md:py-8 md:text-5xl;
+  @apply paraCommon;
   animation: load 1s forwards ease-in 1.75s;
 }
 
 .para7 {
-  @apply py-4 text-2xl font-thin opacity-0 md:py-8 md:text-5xl;
+  @apply paraCommon;
   animation: load 1s forwards ease-in 2s;
 }

@@ -4,12 +4,20 @@
   }
 }
 
+.titleCommon {
+  @apply py-4 text-5xl opacity-0 md:pb-16 md:text-8xl;
+}
+
+.cardCommon {
+  @apply flex aspect-video items-center justify-center rounded-xl border bg-slate-900 text-3xl font-thin opacity-0 transition duration-200 md:text-7xl md:hover:bg-white md:hover:text-slate-900;
+}
+
 .container {
   @apply flex flex-col items-center px-12 py-4 md:px-36 md:py-12;
 }
 
 .title1 {
-  @apply py-4 text-5xl opacity-0 md:pb-16 md:text-8xl;
+  @apply titleCommon;
   animation: load 1s forwards ease-in;
 }
 
@@ -18,36 +26,36 @@
 }
 
 .card1 {
-  @apply flex aspect-video items-center justify-center rounded-xl border bg-slate-900 text-3xl font-thin opacity-0 transition duration-200 md:text-7xl md:hover:bg-white md:hover:text-slate-900;
+  @apply cardCommon;
   animation: load 1s forwards ease-in 0.5s;
 }
 
 .card2 {
-  @apply flex aspect-video items-center justify-center rounded-xl border bg-slate-900 text-3xl font-thin opacity-0 transition duration-200 md:text-7xl md:hover:bg-white md:hover:text-slate-900;
+  @apply cardCommon;
   animation: load 1s forwards ease-in 0.75s;
 }
 
 .card3 {
-  @apply flex aspect-video items-center justify-center rounded-xl border bg-slate-900 text-3xl font-thin opacity-0 transition duration-200 md:text-7xl md:hover:bg-white md:hover:text-slate-900;
+  @apply cardCommon;
   animation: load 1s forwards ease-in 1s;
 }
 
 .card4 {
-  @apply flex aspect-video items-center justify-center rounded-xl border bg-slate-900 text-3xl font-thin opacity-0 transition duration-200 md:text-7xl md:hover:bg-white md:hover:text-slate-900;
+  @apply cardCommon;
   animation: load 1s forwards ease-in 1.25s;
 }
 
 .title2 {
-  @apply py-4 text-5xl opacity-0 md:pb-16 md:text-8xl;
+  @apply titleCommon;
   animation: load 1s forwards ease-in 1.75s;
 }
 
 .card5 {
-  @apply flex aspect-video items-center justify-center rounded-xl border bg-slate-900 text-3xl font-thin opacity-0 transition duration-200 md:text-7xl md:hover:bg-white md:hover:text-slate-900;
+  @apply cardCommon;
   animation: load 1s forwards ease-in 2.25s;
 }
 
 .card6 {
-  @apply flex aspect-video items-center justify-center rounded-xl border bg-slate-900 text-3xl font-thin opacity-0 transition duration-200 md:text-7xl md:hover:bg-white md:hover:text-slate-900;
+  @apply cardCommon;
   animation: load 1s forwards ease-in 2.5s;
 }

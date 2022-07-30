@@ -4,6 +4,10 @@
   }
 }
 
+.cardCommon {
+  @apply my-4 w-[calc(75vw)] rounded-xl border bg-slate-900 p-4 opacity-0 md:my-8 md:w-[calc(60vw)] md:p-12;
+}
+
 .container {
   @apply flex flex-col items-center px-12 py-4 md:px-36 md:py-12;
 }
@@ -14,7 +18,7 @@
 }
 
 .card1 {
-  @apply my-4 w-[calc(75vw)] rounded-xl border bg-slate-900 p-4 opacity-0 md:my-8 md:w-[calc(60vw)] md:p-12;
+  @apply cardCommon;
   animation: load 1s forwards ease-in 0.5s;
 }
 
@@ -47,6 +51,6 @@
 }
 
 .card2 {
-  @apply my-4 w-[calc(75vw)] rounded-xl border bg-slate-900 p-4 opacity-0 md:my-8 md:w-[calc(60vw)] md:p-12;
+  @apply cardCommon;
   animation: load 1s forwards ease-in 0.75s;
 }
