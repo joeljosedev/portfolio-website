@@ -3,7 +3,7 @@
 }
 
 .linkContainer {
-  @apply mr-auto flex h-full hover:cursor-pointer;
+  @apply mr-auto flex h-full cursor-pointer;
 }
 
 .logo {
@@ -19,5 +19,5 @@
 }
 
 .tab {
-  @apply m-4 bg-transparent text-2xl text-gray-500 transition duration-200 hover:cursor-pointer hover:text-white;
+  @apply m-4 cursor-pointer bg-transparent text-2xl text-gray-500 transition duration-200 hover:text-white;
 }
