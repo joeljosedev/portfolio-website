@@ -3,7 +3,7 @@
 }
 
 .linkContainer {
-  @apply mr-auto flex h-full cursor-pointer;
+  @apply mr-auto flex h-full cursor-pointer bg-transparent;
 }
 
 .logo {
