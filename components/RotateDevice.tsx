@@ -16,7 +16,7 @@ const RotateDevice = () => {
   } else if (
     (screen.orientation.type === "landscape-primary" ||
       screen.orientation.type === "landscape-secondary") &&
-    height < 768
+    window.navigator.userAgent.toLowerCase().match(/mobile/i)
   ) {
     return (
       <div className={styles.container}>
