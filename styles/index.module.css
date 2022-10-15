@@ -26,3 +26,8 @@
   @apply text-2xl opacity-0 md:text-5xl;
   animation: load 1s forwards ease-in 0.75s;
 }
+
+.contact {
+  @apply w-[60vw] rounded-xl border border-gray-500 p-2 text-center text-xl font-thin opacity-0 transition duration-200 md:absolute md:top-24 md:right-16 md:w-auto md:hover:bg-white md:hover:text-slate-900;
+  animation: load 1s forwards ease-in 1s;
+}
