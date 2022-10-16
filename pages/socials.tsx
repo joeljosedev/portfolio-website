@@ -1,9 +1,9 @@
-import styles from "../styles/contact.module.css";
+import styles from "../styles/socials.module.css";
 
-const Contact = () => {
+const Socials = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.title1}>My Accounts</div>
+      <div className={styles.title}>My Socials</div>
       <div className={styles.cardContainer}>
         <a href="https://wa.me/+919846642788" target="_blank" rel="noreferrer">
           <div className={styles.card1}>WhatsApp</div>
@@ -26,17 +26,8 @@ const Contact = () => {
           <div className={styles.card4}>Telegram</div>
         </a>
       </div>
-      <div className={styles.title2}>Contact Me</div>
-      <div className={styles.cardContainer}>
-        <a href="mailto:mail@joeljose.dev" target="_blank" rel="noreferrer">
-          <div className={styles.card5}>Email</div>
-        </a>
-        <a href="/Joel-Jose-Resume.pdf" target="_blank" rel="noreferrer">
-          <div className={styles.card6}>Resume</div>
-        </a>
-      </div>
     </div>
   );
 };
 
-export default Contact;
+export default Socials;
