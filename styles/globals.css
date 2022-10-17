@@ -11,6 +11,18 @@
 @tailwind components;
 @tailwind utilities;
 
+::-webkit-scrollbar {
+  @apply w-4;
+}
+
+::-webkit-scrollbar-track {
+  @apply rounded-xl bg-gray-800;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply rounded-xl border-4 border-solid border-transparent bg-gray-700 bg-clip-padding hover:bg-gray-600;
+}
+
 * {
   @apply bg-[#000020] font-roboto text-white;
 }
