@@ -19,6 +19,6 @@
 }
 
 .button {
-  @apply w-full rounded-xl border bg-slate-900 p-4 text-center text-2xl opacity-0 transition duration-200 md:w-2/5 md:cursor-pointer md:text-3xl md:hover:bg-white md:hover:text-slate-900;
+  @apply w-[80vw] rounded-xl border border-gray-500 p-4 text-center text-2xl font-thin opacity-0 transition duration-200 md:w-[35vw] md:hover:bg-white md:hover:text-slate-900;
   animation: load 0.5s forwards ease-in 1s;
 }
