@@ -5,7 +5,7 @@
 }
 
 .cardCommon {
-  @apply flex aspect-video items-center justify-center rounded-xl border bg-slate-900 text-3xl font-thin opacity-0 transition duration-200 md:text-7xl md:hover:bg-white md:hover:text-slate-900;
+  @apply flex aspect-video items-center justify-center rounded-xl border bg-slate-900 text-4xl font-thin opacity-0 transition duration-200 md:text-7xl md:hover:bg-white md:hover:text-slate-900;
 }
 
 .container {
@@ -18,7 +18,7 @@
 }
 
 .cardContainer {
-  @apply my-4 grid w-[calc(75vw)] grid-cols-1 gap-4 md:my-8 md:w-[calc(60vw)] md:grid-cols-2;
+  @apply my-8 grid w-[calc(75vw)] grid-cols-1 gap-6 md:w-[calc(60vw)] md:grid-cols-2;
 }
 
 .card1 {
