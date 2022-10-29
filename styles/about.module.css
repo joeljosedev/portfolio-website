@@ -5,7 +5,7 @@
 }
 
 .paraCommon {
-  @apply py-4 text-2xl font-thin opacity-0 md:py-8 md:text-5xl;
+  @apply py-4 text-justify text-2xl font-thin opacity-0 md:py-8 md:text-5xl;
 }
 
 .container {
@@ -17,37 +17,26 @@
   animation: load 1s forwards ease-in;
 }
 
-.para1 {
+#para1 {
   @apply paraCommon;
   animation: load 1s forwards ease-in 0.5s;
 }
 
-.para2 {
+#para2 {
   @apply paraCommon;
   animation: load 1s forwards ease-in 0.75s;
 }
 
-.para3 {
+#para3 {
   @apply paraCommon;
   animation: load 1s forwards ease-in 1s;
 }
 
-.para4 {
-  @apply paraCommon;
+#list {
+  @apply list-inside list-disc py-4 indent-6 text-2xl opacity-0 md:columns-2 md:py-8 md:indent-12 md:text-5xl;
   animation: load 1s forwards ease-in 1.25s;
 }
 
-.para5 {
-  @apply paraCommon;
-  animation: load 1s forwards ease-in 1.5s;
-}
-
-.para6 {
-  @apply paraCommon;
-  animation: load 1s forwards ease-in 1.75s;
-}
-
-.para7 {
-  @apply paraCommon;
-  animation: load 1s forwards ease-in 2s;
+#list > li {
+  @apply py-2 md:py-4;
 }
