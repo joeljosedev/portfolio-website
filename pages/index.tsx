@@ -11,6 +11,7 @@ const Home: NextPage = () => {
           alt="Photo of Joel Jose"
           width={1730}
           height={1730}
+          priority
         />
       </div>
       <div className={styles.text}>
