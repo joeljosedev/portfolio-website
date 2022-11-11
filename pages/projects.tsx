@@ -1,6 +1,7 @@
+import type { NextPage } from "next";
 import styles from "../styles/projects.module.css";
 
-const Projects = () => {
+const Projects: NextPage = () => {
   return (
     <div className={styles.container}>
       <div className={styles.title}>My Projects</div>
