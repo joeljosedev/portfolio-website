@@ -9,7 +9,7 @@
 }
 
 .photo {
-  @apply aspect-square w-4/6 overflow-hidden rounded-lg opacity-0 md:w-1/4;
+  @apply aspect-square w-1/2 overflow-hidden rounded-lg opacity-0 md:w-1/5;
   animation: load 1s forwards ease-in;
 }
 
