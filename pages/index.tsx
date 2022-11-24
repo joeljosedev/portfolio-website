@@ -20,9 +20,6 @@ const Home: NextPage = () => {
           Next.js developer | Linux enthusiast
         </div>
       </div>
-      <a href="mailto:mail@joeljose.dev" rel="noreferrer">
-        <div className={styles.contact}>Contact me</div>
-      </a>
     </div>
   );
 };
