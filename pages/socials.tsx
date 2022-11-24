@@ -17,11 +17,11 @@ const Socials: NextPage = () => {
           <div className={styles.card2}>LinkedIn</div>
         </a>
         <a
-          href="https://github.com/joeljosedev"
+          href="https://twitter.com/joeljosedev"
           target="_blank"
           rel="noreferrer"
         >
-          <div className={styles.card3}>GitHub</div>
+          <div className={styles.card3}>Twitter</div>
         </a>
         <a href="https://t.me/joeljosedev" target="_blank" rel="noreferrer">
           <div className={styles.card4}>Telegram</div>
