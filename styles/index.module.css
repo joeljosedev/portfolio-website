@@ -14,7 +14,7 @@
 }
 
 .text {
-  @apply flex h-32 flex-col items-center justify-between md:h-[calc(25vw)] md:items-start md:py-16;
+  @apply flex h-40 flex-col items-center justify-between md:h-[calc(25vw)] md:items-start md:py-16;
 }
 
 .name {
