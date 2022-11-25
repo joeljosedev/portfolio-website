@@ -5,7 +5,7 @@
 }
 
 .cardCommon {
-  @apply flex aspect-video items-center justify-center rounded-xl border bg-slate-900 text-4xl font-thin opacity-0 transition duration-200 md:text-7xl md:hover:bg-white md:hover:text-slate-900;
+  @apply flex aspect-video items-center justify-center rounded-xl border bg-black bg-opacity-40 text-4xl font-thin opacity-0 transition duration-200 md:text-7xl md:hover:bg-white md:hover:text-slate-900;
 }
 
 .container {

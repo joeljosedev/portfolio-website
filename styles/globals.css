@@ -16,13 +16,17 @@
 }
 
 ::-webkit-scrollbar-track {
-  @apply rounded-xl bg-gray-800;
+  @apply bg-slate-900;
 }
 
 ::-webkit-scrollbar-thumb {
-  @apply rounded-xl border-4 border-solid border-transparent bg-gray-700 bg-clip-padding hover:bg-gray-600;
+  @apply rounded-xl border-4 border-solid border-transparent bg-slate-800 bg-clip-padding hover:bg-slate-700;
 }
 
 * {
-  @apply bg-[#000020] font-roboto text-white;
+  @apply font-roboto text-white;
+}
+
+html {
+  @apply bg-gradient-to-br from-black via-slate-900 to-black;
 }
