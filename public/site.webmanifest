@@ -1,8 +1,7 @@
 {
-  "background_color": "#000020",
-  "description": "Joel Jose's portfolio website built with Next.js and Tailwind CSS.",
+  "background_color": "#000000",
+  "description": "Joel Jose's portfolio website",
   "display": "standalone",
-  "name": "Joel Jose | Software Developer",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
@@ -15,7 +14,8 @@
       "type": "image/png"
     }
   ],
+  "name": "Joel Jose",
   "short_name": "Joel Jose",
-  "start_url": "https://joeljose.dev",
+  "start_url": "https://www.joeljose.dev",
   "theme_color": "#000000"
 }
