@@ -17,7 +17,7 @@ const Home: NextPage = () => {
       <div className={styles.text}>
         <div className={styles.name}>Joel Jose</div>
         <div className={styles.caption}>
-          Next.js developer | Linux enthusiast
+          Software developer | Aviation enthusiast
         </div>
       </div>
     </div>
