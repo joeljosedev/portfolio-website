@@ -24,7 +24,7 @@
 }
 
 * {
-  @apply font-roboto text-white;
+  @apply bg-transparent font-roboto text-white;
 }
 
 html {

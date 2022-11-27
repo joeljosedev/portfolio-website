@@ -18,16 +18,16 @@
 }
 
 .close {
-  @apply absolute top-0 right-0 m-2 bg-transparent opacity-0;
+  @apply absolute top-0 right-0 m-2 opacity-0;
   animation: load 0.25s forwards ease-in 0.5s;
 }
 
 .activeTab {
-  @apply pointer-events-none m-4 w-fit bg-transparent text-4xl opacity-0;
+  @apply pointer-events-none m-4 w-fit text-4xl opacity-0;
 }
 
 .tab {
-  @apply m-4 w-fit bg-transparent text-4xl text-gray-500 opacity-0;
+  @apply m-4 w-fit text-4xl text-gray-500 opacity-0;
 }
 
 .tab1 {

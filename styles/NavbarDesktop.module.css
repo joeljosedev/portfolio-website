@@ -1,9 +1,9 @@
 .container {
-  @apply sticky top-0 z-10 flex h-16 items-center border-b border-b-gray-800 bg-transparent p-2 backdrop-blur-md;
+  @apply sticky top-0 z-10 flex h-16 items-center border-b border-b-gray-800  p-2 backdrop-blur-md;
 }
 
 .linkContainer {
-  @apply mr-auto flex h-full cursor-pointer bg-transparent;
+  @apply mr-auto flex h-full cursor-pointer;
 }
 
 .logo {
@@ -11,13 +11,13 @@
 }
 
 .name {
-  @apply ml-4 bg-transparent font-dancing text-5xl;
+  @apply ml-4 font-dancing text-5xl;
 }
 
 .activeTab {
-  @apply pointer-events-none m-4 bg-transparent text-2xl;
+  @apply pointer-events-none m-4 text-2xl;
 }
 
 .tab {
-  @apply m-4 cursor-pointer bg-transparent text-2xl text-gray-500 transition duration-200 hover:text-white;
+  @apply m-4 cursor-pointer text-2xl text-gray-500 transition duration-200 hover:text-white;
 }

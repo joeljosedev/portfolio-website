@@ -1,9 +1,9 @@
 .container {
-  @apply sticky top-0 z-10 flex h-14 items-center border-b border-b-gray-800 bg-transparent p-2 backdrop-blur-md;
+  @apply sticky top-0 z-10 flex h-14 items-center border-b border-b-gray-800 p-2 backdrop-blur-md;
 }
 
 .linkContainer {
-  @apply mr-auto flex h-full bg-transparent;
+  @apply mr-auto flex h-full;
 }
 
 .logo {
@@ -11,9 +11,9 @@
 }
 
 .name {
-  @apply ml-4 bg-transparent font-dancing text-4xl;
+  @apply ml-4 font-dancing text-4xl;
 }
 
 .menu {
-  @apply flex aspect-square h-full items-center justify-center bg-transparent;
+  @apply flex aspect-square h-full items-center justify-center;
 }

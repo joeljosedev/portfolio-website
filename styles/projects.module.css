@@ -23,27 +23,27 @@
 }
 
 .cardTitle {
-  @apply border-b bg-transparent pb-4 text-4xl font-bold md:pb-12 md:text-8xl;
+  @apply border-b pb-4 text-4xl font-bold md:pb-12 md:text-8xl;
 }
 
 .cardDescription {
-  @apply bg-transparent py-4 text-xl font-thin md:py-12 md:text-4xl;
+  @apply py-4 text-xl font-thin md:py-12 md:text-4xl;
 }
 
 .cardLibrary {
-  @apply bg-transparent text-2xl md:text-6xl;
+  @apply text-2xl md:text-6xl;
 }
 
 .cardLibraryList {
-  @apply list-disc bg-transparent pt-2 pl-6 md:pt-6 md:pl-10;
+  @apply list-disc pt-2 pl-6 md:pt-6 md:pl-10;
 }
 
 .cardLibraryListItem {
-  @apply bg-transparent text-xl font-thin md:py-2 md:text-3xl;
+  @apply text-xl font-thin md:py-2 md:text-3xl;
 }
 
 .link {
-  @apply bg-transparent text-xl md:text-3xl;
+  @apply text-xl md:text-3xl;
 }
 
 .open {
