@@ -1,0 +1,45 @@
+@keyframes load {
+  to {
+    opacity: 1;
+  }
+}
+
+.container {
+  @apply my-4 w-[calc(75vw)] rounded-xl border bg-black bg-opacity-40 p-4 opacity-0 md:my-8 md:w-[calc(60vw)] md:p-12;
+}
+
+.title {
+  @apply border-b pb-4 text-4xl font-bold md:pb-12 md:text-8xl;
+}
+
+.description {
+  @apply py-4 text-xl font-thin md:py-12 md:text-4xl;
+}
+
+.library {
+  @apply text-2xl md:text-6xl;
+}
+
+.libraryList {
+  @apply list-disc pt-2 pl-6 md:pt-6 md:pl-10;
+}
+
+.libraryListItem {
+  @apply text-xl font-thin md:py-2 md:text-3xl;
+}
+
+.link {
+  @apply text-xl md:text-3xl;
+}
+
+.open {
+  @apply mx-auto mt-4 rounded-lg bg-slate-900 p-2 text-center transition duration-200 md:mt-8 md:hover:bg-white md:hover:text-slate-900;
+}
+
+#card1 {
+  animation: load 1s forwards ease-in 0.5s;
+}
+
+#card2 {
+  animation: load 1s forwards ease-in 0.75s;
+}

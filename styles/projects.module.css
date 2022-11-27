@@ -4,10 +4,6 @@
   }
 }
 
-.cardCommon {
-  @apply my-4 w-[calc(75vw)] rounded-xl border bg-black bg-opacity-40 p-4 opacity-0 md:my-8 md:w-[calc(60vw)] md:p-12;
-}
-
 .container {
   @apply flex flex-col items-center px-12 py-4 md:px-36 md:py-12;
 }
@@ -15,42 +11,4 @@
 .title {
   @apply py-4 text-center text-5xl opacity-0 md:pb-16 md:text-8xl;
   animation: load 1s forwards ease-in;
-}
-
-.card1 {
-  @apply cardCommon;
-  animation: load 1s forwards ease-in 0.5s;
-}
-
-.cardTitle {
-  @apply border-b pb-4 text-4xl font-bold md:pb-12 md:text-8xl;
-}
-
-.cardDescription {
-  @apply py-4 text-xl font-thin md:py-12 md:text-4xl;
-}
-
-.cardLibrary {
-  @apply text-2xl md:text-6xl;
-}
-
-.cardLibraryList {
-  @apply list-disc pt-2 pl-6 md:pt-6 md:pl-10;
-}
-
-.cardLibraryListItem {
-  @apply text-xl font-thin md:py-2 md:text-3xl;
-}
-
-.link {
-  @apply text-xl md:text-3xl;
-}
-
-.open {
-  @apply mx-auto mt-4 rounded-lg bg-slate-900 p-2 text-center transition duration-200 md:mt-8 md:hover:bg-white md:hover:text-slate-900;
-}
-
-.card2 {
-  @apply cardCommon;
-  animation: load 1s forwards ease-in 0.75s;
 }
