@@ -5,15 +5,15 @@
 }
 
 .paraCommon {
-  @apply py-4 text-justify text-2xl font-thin opacity-0 md:py-8 md:text-5xl;
+  @apply py-4 text-justify text-2xl font-thin opacity-0 lg:py-8 lg:text-5xl;
 }
 
 .container {
-  @apply px-12 py-4 md:px-36 md:py-12;
+  @apply px-12 py-4 lg:px-36 lg:py-12;
 }
 
 .title {
-  @apply py-4 text-center text-5xl opacity-0 md:pb-16 md:text-8xl;
+  @apply py-4 text-center text-5xl opacity-0 lg:pb-16 lg:text-8xl;
   animation: load 1s forwards ease-in;
 }
 
@@ -33,10 +33,10 @@
 }
 
 #list {
-  @apply list-inside list-disc py-4 indent-6 text-2xl opacity-0 md:columns-2 md:py-8 md:indent-12 md:text-5xl;
+  @apply list-inside list-disc py-4 indent-6 text-2xl opacity-0 lg:columns-2 lg:py-8 lg:indent-12 lg:text-5xl;
   animation: load 1s forwards ease-in 1.25s;
 }
 
 #list > li {
-  @apply py-2 md:py-4;
+  @apply py-2 lg:py-4;
 }

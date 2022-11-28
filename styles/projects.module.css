@@ -5,10 +5,10 @@
 }
 
 .container {
-  @apply flex flex-col items-center px-12 py-4 md:px-36 md:py-12;
+  @apply flex flex-col items-center px-12 py-4 lg:px-36 lg:py-12;
 }
 
 .title {
-  @apply py-4 text-center text-5xl opacity-0 md:pb-16 md:text-8xl;
+  @apply py-4 text-center text-5xl opacity-0 lg:pb-16 lg:text-8xl;
   animation: load 1s forwards ease-in;
 }

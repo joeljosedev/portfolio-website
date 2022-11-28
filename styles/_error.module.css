@@ -9,16 +9,16 @@
 }
 
 .code {
-  @apply flex h-[30vh] items-center justify-center text-[30vh] opacity-0 md:h-[40vh] md:text-[40vh];
+  @apply flex h-[30vh] items-center justify-center text-[30vh] opacity-0 lg:h-[40vh] lg:text-[40vh];
   animation: load 0.5s forwards ease-in;
 }
 
 .message {
-  @apply text-4xl font-thin opacity-0 md:text-6xl;
+  @apply text-4xl font-thin opacity-0 lg:text-6xl;
   animation: load 0.5s forwards ease-in 0.5s;
 }
 
 .button {
-  @apply w-[80vw] rounded-xl border border-gray-500 bg-black bg-opacity-40 p-4 text-center text-2xl opacity-0 transition duration-200 md:w-[35vw] md:hover:bg-white md:hover:text-slate-900;
+  @apply w-[80vw] rounded-xl border border-gray-500 bg-black bg-opacity-40 p-4 text-center text-2xl opacity-0 transition duration-200 lg:w-[35vw] lg:hover:bg-white lg:hover:text-slate-900;
   animation: load 0.5s forwards ease-in 1s;
 }

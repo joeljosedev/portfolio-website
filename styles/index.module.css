@@ -5,24 +5,24 @@
 }
 
 .container {
-  @apply flex h-[calc(100vh-3.5rem)] w-screen flex-col items-center justify-evenly py-12 md:h-[calc(100vh-4rem)] md:flex-row;
+  @apply flex h-[calc(100vh-3.5rem)] w-screen flex-col items-center justify-evenly py-12 lg:h-[calc(100vh-4rem)] lg:flex-row;
 }
 
 .photo {
-  @apply aspect-square w-1/2 overflow-hidden rounded-lg opacity-0 md:w-1/5;
+  @apply aspect-square w-1/2 overflow-hidden rounded-lg opacity-0 lg:w-1/5;
   animation: load 1s forwards ease-in;
 }
 
 .text {
-  @apply flex h-40 flex-col items-center justify-between md:h-[calc(25vw)] md:items-start md:py-16;
+  @apply mx-10 flex h-40 flex-col items-center justify-between lg:h-[calc(25vw)] lg:items-start lg:py-16;
 }
 
 .name {
-  @apply font-dancing text-7xl opacity-0 md:text-[10rem];
+  @apply font-dancing text-7xl opacity-0 lg:text-[10rem];
   animation: load 1s forwards ease-in 0.5s;
 }
 
 .caption {
-  @apply text-2xl opacity-0 md:text-5xl;
+  @apply text-center text-2xl opacity-0 lg:text-5xl;
   animation: load 1s forwards ease-in 0.75s;
 }

@@ -5,35 +5,35 @@
 }
 
 .container {
-  @apply my-4 w-[calc(75vw)] rounded-xl border bg-black bg-opacity-40 p-4 opacity-0 md:my-8 md:w-[calc(60vw)] md:p-12;
+  @apply my-4 w-[calc(75vw)] rounded-xl border bg-black bg-opacity-40 p-4 opacity-0 lg:my-8 lg:w-[calc(60vw)] lg:p-12;
 }
 
 .title {
-  @apply border-b pb-4 text-4xl font-bold md:pb-12 md:text-8xl;
+  @apply border-b pb-4 text-4xl font-bold lg:pb-12 lg:text-8xl;
 }
 
 .description {
-  @apply py-4 text-xl font-thin md:py-12 md:text-4xl;
+  @apply py-4 text-xl font-thin lg:py-12 lg:text-4xl;
 }
 
 .library {
-  @apply text-2xl md:text-5xl;
+  @apply text-2xl lg:text-5xl;
 }
 
 .libraryList {
-  @apply list-disc pt-2 pl-6 md:pt-6 md:pl-10;
+  @apply list-disc pt-2 pl-6 lg:pt-6 lg:pl-10;
 }
 
 .libraryListItem {
-  @apply text-xl font-thin md:py-2 md:text-3xl;
+  @apply text-xl font-thin lg:py-2 lg:text-3xl;
 }
 
 .link {
-  @apply text-xl md:text-3xl;
+  @apply text-xl lg:text-3xl;
 }
 
 .open {
-  @apply mx-auto mt-4 rounded-lg bg-slate-900 p-2 text-center transition duration-200 md:mt-8 md:hover:bg-white md:hover:text-slate-900;
+  @apply mx-auto mt-4 rounded-lg bg-slate-900 p-2 text-center transition duration-200 lg:mt-8 lg:hover:bg-white lg:hover:text-slate-900;
 }
 
 #card1 {

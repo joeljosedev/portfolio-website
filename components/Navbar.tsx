@@ -28,7 +28,7 @@ const Navbar = () => {
   if (width == 0) {
     setWidth(window.innerWidth);
     return <></>;
-  } else if (width < 768) {
+  } else if (width < 1024) {
     return <NavbarMobile active={activeTab} />;
   } else {
     return <NavbarDesktop active={activeTab} />;
