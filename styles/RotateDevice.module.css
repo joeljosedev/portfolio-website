@@ -9,7 +9,7 @@
 }
 
 .phone {
-  @apply h-80 w-80 opacity-0;
+  @apply h-40 w-40 opacity-0;
   animation: load 0.5s forwards ease-in;
 }
 
