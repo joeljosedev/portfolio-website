@@ -9,14 +9,14 @@ const Projects: NextPage = () => {
       <ProjectCard
         id="card1"
         title="Portfolio Website"
-        description="My portfolio website built with Next.js and Tailwind CSS."
+        description="My portfolio website that describes me and my projects."
         libraries={["Next.js", "Tailwind CSS"]}
         url="https://github.com/joeljosedev/portfolio-website"
       />
       <ProjectCard
         id="card2"
         title="Titanic Data Analysis"
-        description="Analysis of passenger data of the RMS Titanic."
+        description="An analysis of passenger data of the RMS Titanic."
         libraries={["NumPy", "Pandas", "Matplotlib"]}
         url="https://github.com/joeljosedev/Titanic-Data-Analysis"
       />
