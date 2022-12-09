@@ -17,26 +17,26 @@
   animation: load 1s forwards ease-in;
 }
 
-#para1 {
+.para1 {
   @apply paraCommon;
   animation: load 1s forwards ease-in 0.5s;
 }
 
-#para2 {
+.para2 {
   @apply paraCommon;
   animation: load 1s forwards ease-in 0.75s;
 }
 
-#para3 {
+.para3 {
   @apply paraCommon;
   animation: load 1s forwards ease-in 1s;
 }
 
-#list {
+.list {
   @apply list-inside list-disc py-4 indent-6 text-2xl opacity-0 lg:columns-2 lg:py-8 lg:indent-12 lg:text-5xl;
   animation: load 1s forwards ease-in 1.25s;
 }
 
-#list > li {
+.list > li {
   @apply py-2 lg:py-4;
 }
