@@ -9,11 +9,18 @@ interface SocialCardPropsType {
 }
 
 const SocialCard = (props: SocialCardPropsType) => {
-  const cardClass = "card" + props.id.toString();
-
   return (
     <a href={props.url} target="_blank" rel="noreferrer">
-      <div className={styles[cardClass]}>{props.name}</div>
+      <div
+        className={styles.card}
+        style={{
+          animation: `${styles.load} 1s forwards ease-in ${
+            0.25 * (props.id + 1)
+          }s`,
+        }}
+      >
+        {props.name}
+      </div>
     </a>
   );
 };

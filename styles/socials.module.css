@@ -4,7 +4,7 @@
   }
 }
 
-.cardCommon {
+.card {
   @apply flex aspect-video items-center justify-center rounded-xl border bg-black bg-opacity-40 text-4xl font-thin opacity-0 transition duration-200 lg:text-7xl lg:hover:bg-white lg:hover:text-slate-900;
 }
 
@@ -19,24 +19,4 @@
 
 .cardContainer {
   @apply my-8 grid w-[calc(75vw)] grid-cols-1 gap-6 lg:w-[calc(60vw)] lg:grid-cols-2;
-}
-
-.card1 {
-  @apply cardCommon;
-  animation: load 1s forwards ease-in 0.5s;
-}
-
-.card2 {
-  @apply cardCommon;
-  animation: load 1s forwards ease-in 0.75s;
-}
-
-.card3 {
-  @apply cardCommon;
-  animation: load 1s forwards ease-in 1s;
-}
-
-.card4 {
-  @apply cardCommon;
-  animation: load 1s forwards ease-in 1.25s;
 }
