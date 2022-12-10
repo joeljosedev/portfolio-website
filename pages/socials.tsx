@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import data from "../Data.json";
+import dataList from "../DataList.json";
 import styles from "../styles/socials.module.css";
 
 interface SocialCardPropsType {
@@ -30,7 +30,7 @@ const Socials: NextPage = () => {
     <div className={styles.container}>
       <div className={styles.title}>My Socials</div>
       <div className={styles.cardContainer}>
-        {data.data.socials.map((social, index) => {
+        {dataList.data.socials.map((social, index) => {
           return (
             <SocialCard id={index + 1} name={social.name} url={social.url} />
           );
