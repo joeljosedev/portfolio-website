@@ -7,14 +7,14 @@ const Projects: NextPage = () => {
     <div className={styles.container}>
       <div className={styles.title}>My Projects</div>
       <ProjectCard
-        id="card1"
+        id={1}
         title="Portfolio Website"
         description="My portfolio website that describes me and my projects."
         libraries={["Next.js", "Tailwind CSS"]}
         url="https://github.com/joeljosedev/portfolio-website"
       />
       <ProjectCard
-        id="card2"
+        id={2}
         title="Titanic Data Analysis"
         description="An analysis of passenger data of the RMS Titanic."
         libraries={["NumPy", "Pandas", "Matplotlib"]}

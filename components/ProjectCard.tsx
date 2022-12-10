@@ -1,7 +1,7 @@
 import styles from "../styles/ProjectCard.module.css";
 
 interface ProjectCardPropsType {
-  id: string;
+  id: number;
   title: string;
   description: string;
   libraries: Array<string>;
@@ -9,8 +9,10 @@ interface ProjectCardPropsType {
 }
 
 const ProjectCard = (props: ProjectCardPropsType) => {
+  const cardId = "card" + props.id.toString();
+
   return (
-    <div id={styles[props.id]} className={styles.container}>
+    <div id={styles[cardId]} className={styles.container}>
       <div className={styles.title}>{props.title}</div>
       <div className={styles.description}>{props.description}</div>
       <div className={styles.library}>
