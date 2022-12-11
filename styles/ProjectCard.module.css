@@ -35,11 +35,3 @@
 .open {
   @apply mx-auto mt-4 rounded-lg bg-slate-900 p-2 text-center transition duration-200 lg:mt-8 lg:hover:bg-white lg:hover:text-slate-900;
 }
-
-#card1 {
-  animation: load 1s forwards ease-in 0.5s;
-}
-
-#card2 {
-  animation: load 1s forwards ease-in 0.75s;
-}

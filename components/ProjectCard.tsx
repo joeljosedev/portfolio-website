@@ -12,7 +12,15 @@ const ProjectCard = (props: ProjectCardPropsType) => {
   const cardId = "card" + props.id.toString();
 
   return (
-    <div id={styles[cardId]} className={styles.container}>
+    <div
+      id={styles[cardId]}
+      className={styles.container}
+      style={{
+        animation: `${styles.load} 1s forwards ease-in ${
+          0.25 * (props.id + 1)
+        }s`,
+      }}
+    >
       <div className={styles.title}>{props.title}</div>
       <div className={styles.description}>{props.description}</div>
       <div className={styles.library}>
