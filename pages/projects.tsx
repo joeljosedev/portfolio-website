@@ -1,27 +1,26 @@
 import type { NextPage } from "next";
+import dynamic from "next/dynamic";
 import ProjectCard from "../components/ProjectCard";
+import dataList from "../DataList.json";
 import styles from "../styles/projects.module.css";
 
 const Projects: NextPage = () => {
   return (
     <div className={styles.container}>
       <div className={styles.title}>My Projects</div>
-      <ProjectCard
-        id={1}
-        title="Portfolio Website"
-        description="My portfolio website that describes me and my projects."
-        libraries={["Next.js", "Tailwind CSS"]}
-        url="https://github.com/joeljosedev/portfolio-website"
-      />
-      <ProjectCard
-        id={2}
-        title="Titanic Data Analysis"
-        description="An analysis of passenger data of the RMS Titanic."
-        libraries={["NumPy", "Pandas", "Matplotlib"]}
-        url="https://github.com/joeljosedev/Titanic-Data-Analysis"
-      />
+      {dataList.data.projects.reverse().map((project, index) => {
+        return (
+          <ProjectCard
+            id={index + 1}
+            title={project.title}
+            description={project.description}
+            libraries={project.libraries}
+            url={project.url}
+          />
+        );
+      })}
     </div>
   );
 };
 
-export default Projects;
+export default dynamic(() => Promise.resolve(Projects), { ssr: false });
