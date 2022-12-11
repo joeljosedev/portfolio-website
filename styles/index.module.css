@@ -5,7 +5,7 @@
 }
 
 .container {
-  @apply flex h-[calc(100vh-3.5rem)] w-screen flex-col items-center justify-evenly py-12 lg:h-[calc(100vh-4rem)] lg:flex-row;
+  @apply flex h-[calc(100vh-3.5rem)] w-screen flex-col items-center justify-evenly pb-16 lg:h-[calc(100vh-4rem)] lg:flex-row lg:py-12;
 }
 
 .photo {
@@ -23,14 +23,14 @@
 }
 
 .caption {
-  @apply mt-8 flex flex-col text-2xl opacity-0 lg:flex-row lg:text-5xl;
+  @apply mt-8 grid w-[calc(65vw)] divide-y text-center text-2xl opacity-0 lg:w-full lg:grid-cols-2 lg:divide-y-0 lg:divide-x lg:text-5xl;
   animation: load 1s forwards ease-in 0.75s;
 }
 
 .first {
-  @apply p-1 lg:border-r lg:p-4 lg:pl-0 lg:pr-16;
+  @apply p-4 lg:pl-0 lg:pr-16;
 }
 
 .second {
-  @apply p-1 lg:p-4 lg:pr-0 lg:pl-16;
+  @apply p-4 lg:pr-0 lg:pl-16;
 }
