@@ -2,16 +2,8 @@
   @apply sticky top-0 z-10 flex h-16 items-center border-b border-b-gray-800  p-2 backdrop-blur-md;
 }
 
-.linkContainer {
-  @apply mr-auto flex h-full cursor-pointer;
-}
-
-.logo {
-  @apply mx-2 aspect-square h-full overflow-hidden rounded-full border-2;
-}
-
 .name {
-  @apply ml-4 font-dancing text-5xl;
+  @apply ml-4 mr-auto cursor-pointer font-dancing text-5xl;
 }
 
 .activeTab {
