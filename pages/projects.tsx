@@ -11,6 +11,7 @@ const Projects: NextPage = () => {
       {dataList.data.projects.reverse().map((project, index) => {
         return (
           <ProjectCard
+            key={index}
             id={index + 1}
             title={project.title}
             description={project.description}

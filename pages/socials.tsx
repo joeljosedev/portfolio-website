@@ -32,7 +32,12 @@ const Socials: NextPage = () => {
       <div className={styles.cardContainer}>
         {dataList.data.socials.map((social, index) => {
           return (
-            <SocialCard id={index + 1} name={social.name} url={social.url} />
+            <SocialCard
+              key={index}
+              id={index + 1}
+              name={social.name}
+              url={social.url}
+            />
           );
         })}
       </div>
