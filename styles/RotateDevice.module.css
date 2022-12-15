@@ -10,7 +10,7 @@
 
 .phone {
   @apply h-40 w-40 opacity-0;
-  animation: load 0.5s forwards ease-in;
+  animation: load 0.5s forwards ease-in 0.25s;
 }
 
 .text {
