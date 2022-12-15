@@ -11,8 +11,8 @@ const About: NextPage = () => {
         SOHO network infrastructure.
       </div>
       <div className={styles.para2}>
-        I also have experience creating and configuring Windows and Linux
-        virtual machines on VMware Workstation and Oracle VirtualBox.
+        I also have experience creating and configuring virtual machines on
+        VMware Workstation and Oracle VirtualBox.
       </div>
       <div className={styles.para3}>
         Programming languages, frameworks and tools I am proficient in:
