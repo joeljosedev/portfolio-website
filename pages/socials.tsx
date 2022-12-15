@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import dataList from "../DataList.json";
-import styles from "../styles/socials.module.css";
+import styles from "../styles/pages/socials.module.css";
 
 interface SocialCardPropsType {
   id: number;

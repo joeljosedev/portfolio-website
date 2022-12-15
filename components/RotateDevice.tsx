@@ -1,7 +1,7 @@
 import dynamic from "next/dynamic";
 import { useState } from "react";
 import PortraitPhone from "../icons/PortraitPhone";
-import styles from "../styles/RotateDevice.module.css";
+import styles from "../styles/components/RotateDevice.module.css";
 
 const RotateDevice = () => {
   const [height, setHeight] = useState(1000);

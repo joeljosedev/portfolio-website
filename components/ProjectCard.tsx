@@ -1,4 +1,4 @@
-import styles from "../styles/ProjectCard.module.css";
+import styles from "../styles/components/ProjectCard.module.css";
 
 interface ProjectCardPropsType {
   id: number;

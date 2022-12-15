@@ -1,5 +1,5 @@
 import Link from "next/link";
-import styles from "../styles/NavbarDesktop.module.css";
+import styles from "../styles/components/NavbarDesktop.module.css";
 import { NavbarPropsType } from "./Navbar";
 
 const NavbarDesktop = (props: NavbarPropsType) => {

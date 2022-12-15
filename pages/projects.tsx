@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import dynamic from "next/dynamic";
 import ProjectCard from "../components/ProjectCard";
 import dataList from "../DataList.json";
-import styles from "../styles/projects.module.css";
+import styles from "../styles/pages/projects.module.css";
 
 const Projects: NextPage = () => {
   return (

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import MenuIcon from "../icons/MenuIcon";
-import styles from "../styles/NavbarMobile.module.css";
+import styles from "../styles/components/NavbarMobile.module.css";
 import { NavbarPropsType } from "./Navbar";
 import PageModal from "./PageModal";
 
