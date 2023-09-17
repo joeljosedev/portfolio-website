@@ -5,7 +5,7 @@
 }
 
 .paraCommon {
-  @apply py-4 text-justify text-2xl font-thin opacity-0 lg:py-8 lg:text-5xl;
+  @apply py-4 text-2xl font-thin opacity-0 lg:py-8 lg:text-5xl;
 }
 
 .container {
