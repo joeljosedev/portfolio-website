@@ -9,23 +9,23 @@
 }
 
 .title {
-  @apply border-b pb-4 text-4xl font-bold lg:pb-12 lg:text-8xl;
+  @apply border-b pb-4 text-4xl font-bold lg:pb-8 lg:text-6xl;
 }
 
 .description {
-  @apply py-4 text-xl font-thin lg:py-12 lg:text-4xl;
+  @apply py-4 text-xl font-thin lg:py-8 lg:text-4xl;
 }
 
 .library {
-  @apply text-2xl lg:text-5xl;
+  @apply text-2xl lg:text-4xl;
 }
 
 .libraryList {
-  @apply list-disc pt-2 pl-6 lg:pt-6 lg:pl-10;
+  @apply list-disc pt-2 pl-6 lg:pt-2 lg:pl-10;
 }
 
 .libraryListItem {
-  @apply text-xl font-thin lg:py-2 lg:text-3xl;
+  @apply text-xl font-thin lg:py-2 lg:text-2xl;
 }
 
 .link {

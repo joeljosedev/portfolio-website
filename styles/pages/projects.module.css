@@ -9,6 +9,6 @@
 }
 
 .title {
-  @apply py-4 text-center text-5xl opacity-0 lg:pb-16 lg:text-8xl;
+  @apply py-4 text-center text-5xl opacity-0 lg:pb-16 lg:text-6xl;
   animation: load 1s forwards ease-in;
 }
