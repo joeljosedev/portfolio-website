@@ -14,7 +14,7 @@
 }
 
 .text {
-  @apply mx-10 flex h-40 flex-col items-center justify-between lg:h-[calc(25vw)] lg:items-start lg:py-16;
+  @apply mx-10 flex h-40 flex-col items-center justify-between lg:h-[calc(25vw)] lg:items-start lg:py-10;
 }
 
 .name {
