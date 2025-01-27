@@ -3,13 +3,13 @@
     "projects": [
       {
         "title": "Titanic Data Analysis",
-        "description": "An analysis of passenger data of the RMS Titanic.",
+        "description": "A project analysing the RMS Titanic's passenger data and highlighting key observations.",
         "libraries": ["NumPy", "Pandas", "Matplotlib"],
         "url": "https://github.com/joeljosedev/Titanic-Data-Analysis"
       },
       {
         "title": "Portfolio Website",
-        "description": "My portfolio website that describes me and my projects.",
+        "description": "A comprehensive portfolio website that highlights my work, projects, and personal story.",
         "libraries": ["Next.js", "Tailwind CSS"],
         "url": "https://github.com/joeljosedev/portfolio-website"
       }
