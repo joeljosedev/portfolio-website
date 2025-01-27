@@ -13,24 +13,6 @@
         "libraries": ["Next.js", "Tailwind CSS"],
         "url": "https://github.com/joeljosedev/portfolio-website"
       }
-    ],
-    "socials": [
-      {
-        "name": "WhatsApp",
-        "url": "https://wa.me/+919846642788"
-      },
-      {
-        "name": "LinkedIn",
-        "url": "https://www.linkedin.com/in/joeljosedev"
-      },
-      {
-        "name": "Twitter",
-        "url": "https://twitter.com/joeljosedev"
-      },
-      {
-        "name": "Telegram",
-        "url": "https://t.me/joeljosedev"
-      }
     ]
   }
 }

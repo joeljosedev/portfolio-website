@@ -31,13 +31,6 @@ const NavbarDesktop = (props: NavbarPropsType) => {
           Projects
         </div>
       </Link>
-      <Link href="/socials">
-        <div
-          className={props.active === "socials" ? styles.activeTab : styles.tab}
-        >
-          Socials
-        </div>
-      </Link>
     </div>
   );
 };

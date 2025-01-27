@@ -76,17 +76,6 @@ const PageModal = (props: ModalPropsType) => {
             Projects
           </div>
         </Link>
-        <Link href="/socials">
-          <div
-            className={[
-              styles.tab4,
-              props.active === "socials" ? styles.activeTab : styles.tab,
-            ].join(" ")}
-            onClick={() => props.setShowModal(false)}
-          >
-            Socials
-          </div>
-        </Link>
       </div>
     </div>
   );
