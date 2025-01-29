@@ -31,7 +31,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => (
       <meta name="description" content="Joel Jose's Portfolio Website." />
       <meta property="og:title" content="Joel Jose" />
       <meta property="og:type" content="website" />
-      <meta property="og:image" content="/banner.png" />
+      <meta property="og:image" content="https://www.joeljose.dev/banner.png" />
       <meta property="og:url" content="https://www.joeljose.dev" />
       <meta
         property="og:description"
